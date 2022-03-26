@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://playful-torrone-0b9042.netlify.app).
+This project was bootstrapped with [https://playful-torrone-0b9042.netlify.app]
 
 ## Available Scripts
 
