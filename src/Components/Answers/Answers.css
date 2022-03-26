@@ -1,0 +1,15 @@
+.answers{
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+
+.answers h1{
+    text-align: center;
+}
+summary{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: #e487cc;
+    padding: 10px;
+}

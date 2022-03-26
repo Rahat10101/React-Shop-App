@@ -1,0 +1,49 @@
+.shop {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.products {
+    padding: 10px 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+
+}
+
+.cart{
+    padding: 10px;
+    min-height: 100vh;
+    background-color: #8f8184;
+}
+
+@media (max-width: 480px) {
+    .shop{
+        grid-template-columns: 1fr;
+    }
+    .products{
+        order: 2;
+    }
+    .cart{
+        min-height: 50vh;
+    }
+    .products {
+        grid-template-columns: 1fr;
+    
+    }
+  }
+
+
+  .btn{
+    padding: 10px;
+    color: #9c6c76;
+    border: none;
+    background-color: antiquewhite;
+    transition: background-color .5s ;
+    margin: 10px;
+  }
+
+  .btn:hover{
+      background-color: #fff;
+
+  }

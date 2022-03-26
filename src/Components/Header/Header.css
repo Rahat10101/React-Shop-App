@@ -1,0 +1,13 @@
+.header{
+    height: 100px;
+    background-color:  #db6d6d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    font-size: 30px;
+    color: #151D3B;
+    font-family: 'Courier New', Courier, monospace;
+}
